@@ -1,6 +1,6 @@
 function addingEventListener() {
 
-    const input = document.getElementById('input');
+    const input = document.querySelector('#input');
 
     input.addEventListener('click', function(event) {
 
@@ -9,3 +9,5 @@ function addingEventListener() {
     });
 
 };
+
+addingEventListener();
